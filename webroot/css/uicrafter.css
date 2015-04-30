@@ -1,0 +1,33 @@
+html
+{
+	height: 100%;
+}
+
+
+body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	background-image: url("../img/background.png");
+}
+
+.uic_abs
+{
+	position: absolute;
+	box-sizing: border-box;
+}
+
+.uic_panel
+{
+	background: linear-gradient(#ffffff, #dddddd);
+	border: 1px solid #999999;
+}
+
+#_uic_selectRect
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 1px;
+	border-image: url('../img/select-ants.gif') 1 repeat repeat;
+}
