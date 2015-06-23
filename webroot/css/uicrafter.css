@@ -31,3 +31,23 @@ body
 	border: 1px;
 	border-image: url('../img/select-ants.gif') 1 repeat repeat;
 }
+
+.uic_treeLabel
+{
+	cursor: default;
+}
+
+.uic_nodeEmpty
+{
+	list-style: none inside;
+}
+
+.uic_nodeCollapsed
+{
+	list-style: none outside url("../img/dtriang_c.png");
+}
+
+.uic_nodeExpanded
+{
+	list-style: none outside url("../img/dtriang_e.png");
+}
